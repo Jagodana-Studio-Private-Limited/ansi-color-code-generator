@@ -1,10 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
       <stop offset="100%" style="stop-color:#06b6d4"/>
     </linearGradient>
   </defs>
   <rect width="100" height="100" rx="20" fill="url(#g)"/>
-  <text x="50" y="68" font-family="system-ui" font-size="50" font-weight="bold" fill="white" text-anchor="middle">T</text>
+  <rect x="15" y="30" width="70" height="42" rx="6" fill="rgba(0,0,0,0.35)"/>
+  <text x="24" y="51" font-family="monospace" font-size="13" font-weight="bold" fill="#4ade80">$</text>
+  <text x="32" y="51" font-family="monospace" font-size="10" fill="white">ESC[</text>
+  <text x="56" y="51" font-family="monospace" font-size="10" fill="#f472b6">31m</text>
+  <rect x="24" y="57" width="30" height="3" rx="1.5" fill="#a78bfa"/>
+  <rect x="58" y="57" width="20" height="3" rx="1.5" fill="#22d3ee"/>
 </svg>
